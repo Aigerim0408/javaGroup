@@ -3,7 +3,7 @@ public class Safia {
     String address;
     String currentPlaceOfWork;
     int age;
-    String school;
+    String schoolNumber;
     int height;
     String Pet;
     int weight;
