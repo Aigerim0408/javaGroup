@@ -11,11 +11,13 @@ public class Main {
         person.currentWorkPlace = "Tian Long LLC";
         person.workExperience = 8;
         person.maritalStatus = "Single";
+        System.out.println("===================");
         System.out.println("Name: " + person.name + "\n"+"Date of birth: " + person.dateOfBirth +"\n"
                 + "Address: " + person.address +"\n"+ "Hobby: " + person.hobby+ "\n"+ "Education: "
                 + person.education + "\n"+"Specialty: " + person.specialty +"\n"+
                 "Current work place: " + person.currentWorkPlace +"\n"+ "Work experience: " + person.workExperience
                 +" years" + "\n" +"Marital status: " + person.maritalStatus);
+        System.out.println("===================");
 
         // Aidar
         Aidar aydar = new Aidar();
@@ -26,9 +28,11 @@ public class Main {
         aydar.height = "180cm";
         aydar.weight = "65kg";
         aydar.character = "Позитивный";
+        System.out.println("===================");
         System.out.println("Name: " + aydar.name + "\n" + "Surename: " + aydar.surename + "\n" + "Age: "
                 + aydar.age + "\n" + "Gender: " + aydar.gender + "\n" + "Height: " + aydar.height + "\n"
                 + "Weight" + aydar.weight + "\n" + "Character: " + aydar.character);
+        System.out.println("===================");
 
         // Sofia
         Safia safia = new Safia();
@@ -40,10 +44,11 @@ public class Main {
         safia.height = 160;
         safia.Pet = "parrot";
         safia.weight = 45;
-
+        System.out.println("===================");
         System.out.println("Name: "+safia.name+"\n"+"Address: "+safia.address+"\n"+"CurrentPlaceOfWork: "
                 +safia.currentPlaceOfWork+"\n"+"age: "+safia.age+"\n"+"school: "+safia.school+"\n"+"height: "
                 +safia.height+"\n"+"pet: "+safia.Pet+"\n"+"weight: "+ safia.weight+"\n");
+        System.out.println("===================");
 
         //  Nurbek
         nurbek nurbek = new nurbek();
