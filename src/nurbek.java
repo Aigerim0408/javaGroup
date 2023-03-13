@@ -1,6 +1,6 @@
 public class nurbek {
     String name;
-    int yo;
+    int age;
     String sex;
     String address;
     int schoolnumber;
