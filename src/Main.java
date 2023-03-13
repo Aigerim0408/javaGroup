@@ -40,27 +40,27 @@ public class Main {
         safia.address = "37 pioneer";
         safia.currentPlaceOfWork = "no";
         safia.age = 14;
-        safia.school = "15 school";
+        safia.schoolNumber = "15 school";
         safia.height = 160;
         safia.Pet = "parrot";
         safia.weight = 45;
         System.out.println("===================");
         System.out.println("Name: "+safia.name+"\n"+"Address: "+safia.address+"\n"+"CurrentPlaceOfWork: "
-                +safia.currentPlaceOfWork+"\n"+"age: "+safia.age+"\n"+"school: "+safia.school+"\n"+"height: "
+                +safia.currentPlaceOfWork+"\n"+"age: "+safia.age+"\n"+"school: "+safia.schoolNumber+"\n"+"height: "
                 +safia.height+"\n"+"pet: "+safia.Pet+"\n"+"weight: "+ safia.weight+"\n");
         System.out.println("===================");
 
         //  Nurbek
         nurbek nurbek = new nurbek();
         nurbek.name = "Nurbek";
-        nurbek.yo = 15;
+        nurbek.age = 15;
         nurbek.sex = "Man";
         nurbek.address = "Turgeneva";
         nurbek.schoolnumber = 28;
         nurbek.clas = 9;
         nurbek.maritalstatus = "Very nice";
 
-        System.out.println("===================\n" + "Name: " + nurbek.name + "\nYears old: " + nurbek.yo + "\nSex: " +
+        System.out.println("===================\n" + "Name: " + nurbek.name + "\nYears old: " + nurbek.age + "\nSex: " +
                 nurbek.sex + "\nAddress: " + nurbek.address + "\nSchool number: " + nurbek.schoolnumber + "\nClass: " +
                 nurbek.clas + "\nMarital status: " + nurbek.maritalstatus + "\n===================");
     }
