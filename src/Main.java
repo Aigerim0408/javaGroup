@@ -36,7 +36,7 @@ public class Main {
 
         // Sofia
         Safia safia = new Safia();
-        safia.name = "safia";
+        safia.name = "Safia";
         safia.address = "37 pioneer";
         safia.currentPlaceOfWork = "no";
         safia.age = 14;
@@ -54,7 +54,7 @@ public class Main {
         nurbek nurbek = new nurbek();
         nurbek.name = "Nurbek";
         nurbek.age = 15;
-        nurbek.sex = "Man";
+        nurbek.sex = "Male";
         nurbek.address = "Turgeneva";
         nurbek.schoolnumber = 28;
         nurbek.clas = 9;
