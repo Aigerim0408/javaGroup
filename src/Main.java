@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hello world!");
         Aigerim person = new Aigerim();
         person.name = "Aigerim";
         person.dateOfBirth = "04.08.1990";
