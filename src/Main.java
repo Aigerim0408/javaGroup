@@ -16,7 +16,8 @@ public class Main {
                 + person.education + "\n"+"Specialty: " + person.specialty +"\n"+
                 "Current work place: " + person.currentWorkPlace +"\n"+ "Work experience: " + person.workExperience
                 +" years" + "\n" +"Marital status: " + person.maritalStatus);
-        System.out.println("Aigerim");
+
+        System.out.println("Safia: ");
         Safia safia = new Safia();
         safia.name = "safia";
         safia.address = "37 pioneer";
