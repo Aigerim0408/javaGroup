@@ -43,5 +43,17 @@ public class Main {
         System.out.println("Name: "+safia.name+"\n"+"Address: "+safia.address+"\n"+"CurrentPlaceOfWork: "
                 +safia.currentPlaceOfWork+"\n"+"age: "+safia.age+"\n"+"school: "+safia.school+"\n"+"height: "
                 +safia.height+"\n"+"pet: "+safia.Pet+"\n"+"weight: "+ safia.weight+"\n");
+        nurbek nurbek = new nurbek();
+        nurbek.name = "Nurbek";
+        nurbek.yo = 15;
+        nurbek.sex = "Man";
+        nurbek.address = "Turgeneva";
+        nurbek.schoolnumber = 28;
+        nurbek.clas = 9;
+        nurbek.maritalstatus = "Very nice";
+
+        System.out.println("===================\n" + "Name: " + nurbek.name + "\nYears old: " + nurbek.yo + "\nSex: " +
+                nurbek.sex + "\nAddress: " + nurbek.address + "\nSchool number: " + nurbek.schoolnumber + "\nClass: " +
+                nurbek.clas + "\nMarital status: " + nurbek.maritalstatus + "\n===================");
     }
 }
