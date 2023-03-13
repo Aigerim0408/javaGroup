@@ -1,6 +1,6 @@
 public class Aidar {
     String name;
-    String surename;
+    String surname;
     int age;
     String gender;
     String height;
