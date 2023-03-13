@@ -51,7 +51,7 @@ public class Main {
         System.out.println("===================");
 
         //  Nurbek
-        nurbek nurbek = new nurbek();
+        Nurbek nurbek = new Nurbek();
         nurbek.name = "Nurbek";
         nurbek.age = 15;
         nurbek.sex = "Male";

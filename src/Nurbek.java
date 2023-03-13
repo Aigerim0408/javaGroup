@@ -1,4 +1,4 @@
-public class nurbek {
+public class Nurbek {
     String name;
     int age;
     String sex;
