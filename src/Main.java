@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        // Aigerim
         Aigerim person = new Aigerim();
         person.name = "Aigerim";
         person.dateOfBirth = "04.08.1990";
@@ -16,7 +16,8 @@ public class Main {
                 + person.education + "\n"+"Specialty: " + person.specialty +"\n"+
                 "Current work place: " + person.currentWorkPlace +"\n"+ "Work experience: " + person.workExperience
                 +" years" + "\n" +"Marital status: " + person.maritalStatus);
-                
+
+        // Aidar
         Aidar aydar = new Aidar();
         aydar.name = "Айдар";
         aydar.surename = "Жапаров";
@@ -29,7 +30,7 @@ public class Main {
                 + aydar.age + "\n" + "Gender: " + aydar.gender + "\n" + "Height: " + aydar.height + "\n"
                 + "Weight" + aydar.weight + "\n" + "Character: " + aydar.character);
 
-        System.out.println("Safia: ");
+        // Sofia
         Safia safia = new Safia();
         safia.name = "safia";
         safia.address = "37 pioneer";
@@ -43,6 +44,8 @@ public class Main {
         System.out.println("Name: "+safia.name+"\n"+"Address: "+safia.address+"\n"+"CurrentPlaceOfWork: "
                 +safia.currentPlaceOfWork+"\n"+"age: "+safia.age+"\n"+"school: "+safia.school+"\n"+"height: "
                 +safia.height+"\n"+"pet: "+safia.Pet+"\n"+"weight: "+ safia.weight+"\n");
+
+        //  Nurbek
         nurbek nurbek = new nurbek();
         nurbek.name = "Nurbek";
         nurbek.yo = 15;
