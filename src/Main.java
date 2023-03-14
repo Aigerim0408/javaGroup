@@ -17,6 +17,7 @@ public class Main {
                 + person.education + "\n"+"Specialty: " + person.specialty +"\n"+
                 "Current work place: " + person.currentWorkPlace +"\n"+ "Work experience: " + person.workExperience
                 +" years" + "\n" +"Marital status: " + person.maritalStatus);
+
         System.out.println("===================");
 
         // Aidar
