@@ -1,7 +1,7 @@
 public class Nurbek {
     String name;
     int age;
-    String sex;
+    String gender;
     String address;
     int schoolnumber;
     int clas;

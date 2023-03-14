@@ -55,14 +55,14 @@ public class Main {
         Nurbek nurbek = new Nurbek();
         nurbek.name = "Nurbek";
         nurbek.age = 15;
-        nurbek.sex = "Male";
+        nurbek.gender = "Male";
         nurbek.address = "Turgeneva";
         nurbek.schoolnumber = 28;
         nurbek.clas = 9;
         nurbek.maritalstatus = "Very nice";
 
         System.out.println("===================\n" + "Name: " + nurbek.name + "\nYears old: " + nurbek.age + "\nSex: " +
-                nurbek.sex + "\nAddress: " + nurbek.address + "\nSchool number: " + nurbek.schoolnumber + "\nClass: " +
+                nurbek.gender + "\nAddress: " + nurbek.address + "\nSchool number: " + nurbek.schoolnumber + "\nClass: " +
                 nurbek.clas + "\nMarital status: " + nurbek.maritalstatus + "\n===================");
     }
 }
