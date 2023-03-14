@@ -8,4 +8,9 @@ public class Aigerim {
     int workExperience;
     String hobby;
     String maritalStatus;
+    public static String ability (){
+    String skill = "Programing";
+     return skill;
+    }
+
 }

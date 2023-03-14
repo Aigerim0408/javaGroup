@@ -17,12 +17,13 @@ public class Main {
                 + person.education + "\n"+"Specialty: " + person.specialty +"\n"+
                 "Current work place: " + person.currentWorkPlace +"\n"+ "Work experience: " + person.workExperience
                 +" years" + "\n" +"Marital status: " + person.maritalStatus);
+
         System.out.println("===================");
 
         // Aidar
         Aidar aydar = new Aidar();
         aydar.name = "Айдар";
-        aydar.surname = "Жапаров";
+        aydar.surname = "Japarov";
         aydar.age = 18;
         aydar.gender = "Male";
         aydar.height = "180cm";
