@@ -23,7 +23,7 @@ public class Main {
         // Aidar
         Aidar aydar = new Aidar();
         aydar.name = "Айдар";
-        aydar.surname = "Жапаров";
+        aydar.surname = "Japarov";
         aydar.age = 18;
         aydar.gender = "Male";
         aydar.height = "180cm";
