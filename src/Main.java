@@ -27,7 +27,7 @@ public class Main {
         aydar.weight = "65kg";
         aydar.character = "Позитивный";
         System.out.println("===================");
-        System.out.println("Name: " + aydar.name + "\n" + "Surename: " + aydar.surname + "\n" + "Age: "
+        System.out.println("Name: " + aydar.name + "\n" + "Surname: " + aydar.surname + "\n" + "Age: "
                 + aydar.age + "\n" + "Gender: " + aydar.gender + "\n" + "Height: " + aydar.height + "\n"
                 + "Weight" + aydar.weight + "\n" + "Character: " + aydar.character);
         System.out.println("===================");
