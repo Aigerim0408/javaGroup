@@ -26,35 +26,18 @@ public class Aigerim {
     public Aigerim() {
     }
 
-    @Override
-    public String toString() {
-        return  "Aigerim{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", dateOfBirth='" + dateOfBirth + '\'' +
-                ", address='" + address + '\'' +
-                ", education='" + education + '\'' +
-                ", specialty='" + specialty + '\'' +
-                ", currentWorkPlace='" + currentWorkPlace + '\'' +
-                ", workExperience=" + workExperience +
-                ", hobby='" + hobby + '\'' +
-                ", maritalStatus='" + maritalStatus + '\'' +
-                '}';
-    }
-
     public void method() {
         if (age <= 32) {
-            System.out.println("name='" + name + '\'' +
-                    ", age=" + age +
-                    ", dateOfBirth='" + dateOfBirth + '\'' +
-                    ", address='" + address + '\'' +
-                    ", education='" + education + '\'' +
-                    ", specialty='" + specialty + '\'' +
-                    ", currentWorkPlace='" + currentWorkPlace + '\'' +
-                    ", workExperience=" + workExperience +
-                    ", hobby='" + hobby + '\'' +
-                    ", maritalStatus='" + maritalStatus + '\'' +
-                    '}');
+            System.out.println("name: " + name + "\n" +
+                    "age: " + age + "\n" +
+                    "dateOfBirth: " + dateOfBirth + "\n" +
+                    "address: " + address + "\n" +
+                    "education:" + education + "\n" +
+                    "specialty:" + specialty + "\n" +
+                    "currentWorkPlace: " + currentWorkPlace + "\n" +
+                    "workExperience:" + workExperience + "\n" +
+                    "hobby: " + hobby + "\n" +
+                    "maritalStatus: " + maritalStatus);
         } else {
             System.out.println("taktalsyn!");
         }

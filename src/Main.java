@@ -43,9 +43,9 @@ public class Main {
         safia.Pet = "parrot";
         safia.weight = 45;
         System.out.println("===================");
-        System.out.println("Name: "+safia.name+"\n"+"Address: "+safia.address+"\n"+"CurrentPlaceOfWork: "
-                +safia.currentPlaceOfWork+"\n"+"age: "+safia.age+"\n"+"school: "+safia.schoolNumber+"\n"+"height: "
-                +safia.height+"\n"+"pet: "+safia.Pet+"\n"+"weight: "+ safia.weight+"\n");
+        System.out.println("Name: " + safia.name + "\n" + "Address: " + safia.address + "\n" + "CurrentPlaceOfWork: "
+                + safia.currentPlaceOfWork + "\n" + "age: " + safia.age + "\n" + "school: " + safia.schoolNumber + "\n" + "height: "
+                + safia.height + "\n" + "pet: " + safia.Pet + "\n" + "weight: " + safia.weight + "\n");
         System.out.println("===================");
 
         //  Nurbek
@@ -58,8 +58,9 @@ public class Main {
         nurbek.clas = 9;
         nurbek.maritalstatus = "Very nice";
 
-        System.out.println("===================\n" + "Name: " + nurbek.name + "\nYears old: " + nurbek.age + "\nSex: " +
-                nurbek.gender + "\nAddress: " + nurbek.address + "\nSchool number: " + nurbek.schoolnumber + "\nClass: " +
-                nurbek.clas + "\nMarital status: " + nurbek.maritalstatus + "\n===================");
+        System.out.println("===================\n" + "Name: " + nurbek.name + "\nYears old: " + nurbek.age +
+                "\nGender: " + nurbek.gender + "\nAddress: " + nurbek.address + "\nSchool number: "
+                + nurbek.schoolnumber + "\nClass: " + nurbek.clas + "\nMarital status: "
+                + nurbek.maritalstatus + "\n===================");
     }
 }
